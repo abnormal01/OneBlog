@@ -8,7 +8,7 @@
 
 <div class="container custome-container">
     <@prompt></@prompt>
-    <nav class="breadcrumb">
+    <#--<nav class="breadcrumb">
         <div class="notify"><i class="fa fa-bullhorn fa-fw"></i></div>
         <div id="scrolldiv">
             <div class="scrolltext">
@@ -25,7 +25,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>-->
     <div class="row">
         <div class="col-sm-8 blog-main">
             <@articleTag method="recommendedList" pageSize="8">
