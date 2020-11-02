@@ -7,7 +7,7 @@
             </div>
         </div>
     <#else>
-        <div class="sidebar-module" style="position: relative;">
+        <#--<div class="sidebar-module" style="position: relative;">
             <a href='https://gitee.com/yadong.zhang/DBlog' target="_blank" rel="external nofollow"><img src='https://gitee.com/yadong.zhang/DBlog/widgets/widget_1.svg?color=07b83f' alt='Fork me on Gitee' style="position: absolute;right: 0;"/></a>
             <h5 class="custom-title"><i class="fa fa-home fa-fw icon"></i><strong>关于我</strong><small></small></h5>
             <div class="widget">
@@ -19,7 +19,7 @@
                             <div class="about-the">${config.siteDesc!}</div>
                         </div>
                         <div class="clear"></div>
-                        <!-- 方案一：图标展示 -->
+                        <!-- 方案一：图标展示 &ndash;&gt;
                         <ul class="widget-icon">
                             <li class="weixin auto-shake" data-container="body"
                                 data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" data-content="<img src='${config.wxCode}' style='width: 130px;' alt='QR Code'>">
@@ -35,17 +35,17 @@
                                 <a class="tag-icon" href="${config.github}" title="点击查看我的github" target="_blank" rel="external nofollow"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
-                        <!-- 方案二：列表展示 -->
-                        <#--<ul class="list-unstyled">
+                        <!-- 方案二：列表展示 &ndash;&gt;
+                        &lt;#&ndash;<ul class="list-unstyled">
                             <li><i class="fa fa-info-circle fa-fw"></i>博主：<small>张亚东</small></li>
                             <li><i class="fa fa-user-circle fa-fw"></i>职业：<small>码农</small></li>
                             <li><i class="fa fa-home fa-fw"></i>籍贯：<small>长白山某棵树上</small></li>
                             <li><i class="fa fa-envelope-square fa-fw"></i>邮箱：<small>10000@qq.com</small></li>
-                        </ul>-->
+                        </ul>&ndash;&gt;
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </#if>
     <div class="sidebar-module article-module hide" style="top: 0;">
         <h5 class="custom-title"><i class="fa fa-book fa-fw icon"></i><strong>本文目录</strong><i class="fa fa-close pull-right close-article-menu hide pointer"></i><small></small></h5>
