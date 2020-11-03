@@ -43,17 +43,17 @@
                     <a href="/" class="site_title"><i class="fa fa-coffee"></i> <span>${config.siteName}</span></a>
                 </div>
                 <div class="clearfix"></div>
-                <@shiro.user>
-                <div class="profile clearfix">
-                    <div class="profile_pic">
-                        <img src="/assets/images/loading.gif" alt="..." class="img-circle profile_img">
-                    </div>
-                    <div class="profile_info">
-                        <span id="hello_msg">&nbsp;</span>
-                        <h2>尊敬的管理员</h2>
-                    </div>
-                </div>
-                </@shiro.user>
+<#--                <@shiro.user>-->
+<#--                <div class="profile clearfix">-->
+<#--                    <div class="profile_pic">-->
+<#--                        <img src="/assets/images/loading.gif" alt="..." class="img-circle profile_img">-->
+<#--                    </div>-->
+<#--                    <div class="profile_info">-->
+<#--                        <span id="hello_msg">&nbsp;</span>-->
+<#--                        <h2>尊敬的管理员</h2>-->
+<#--                    </div>-->
+<#--                </div>-->
+<#--                </@shiro.user>-->
                 <br />
                 <#include "/layout/sidebar.ftl"/>
             </div>
