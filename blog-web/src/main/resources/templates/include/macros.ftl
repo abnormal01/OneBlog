@@ -11,6 +11,8 @@
     <meta name="author" content="${config.authorName}(${config.authorEmail})">
     <meta name="keywords" content="${keywords}"/>
     <meta name="description" content="${description}" id="meta_description">
+    <!-- HTML标签验证 -->
+    <meta name="baidu-site-verification" content="code-0a0RbqxxNC" />
     <link rel="canonical" href="${config.siteUrl}${canonical}" />
     <#include "/layout/quote.ftl">
     <#--黑白界面
