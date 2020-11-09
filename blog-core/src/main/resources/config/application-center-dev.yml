@@ -9,7 +9,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://127.0.0.1:3306/dblog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: cIDsmE4OtXTxt0j!
+    password: \\*7B446D2488D03C48495B08C8E36CDBF8A6FEF057
   ####### Redis Config #######
   redis:
     database: 5
