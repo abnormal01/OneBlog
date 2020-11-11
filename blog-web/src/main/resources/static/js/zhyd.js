@@ -43,7 +43,7 @@ function initNavbar() {
 function initArticeMenu() {
     $(function () {
         var $blogContentBody = $('.blog-info-body');
-        var $h = $blogContentBody.find('h2, h3');
+        var $h = $blogContentBody.find('h2, h3, h4');
         var $articleBox = $('.article-module');
         var $articleMenu = $('#article-menu');
         if ($blogContentBody && $blogContentBody[0]) {
