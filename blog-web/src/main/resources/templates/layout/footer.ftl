@@ -128,7 +128,7 @@
                                     ${item.name!}
                                 </a>
                             </#list>
-                            <a href="${config.siteUrl}/links" title="更多链接" data-toggle="tooltip" data-placement="right"><i class="fa fa-plus"></i>更多链接</a>
+<#--                            <a href="${config.siteUrl}/links" title="更多链接" data-toggle="tooltip" data-placement="right"><i class="fa fa-plus"></i>更多链接</a>-->
                         <#else>
                             <a href="${config.siteUrl}/links" title="申请友链" data-toggle="tooltip" data-placement="right">申请友链</a>
                         </#if>
