@@ -267,7 +267,7 @@ $(function () {
             // 申请显示通知的权限
             $.notification.requestPermission();
             $.websocket.open({
-                host: scheme + host + "/websocket",
+                host: "ws://" + host + "/websocket",
                 reconnect: true,
                 callback: function (result) {
                     var resultJson = JSON.parse(result);
