@@ -251,7 +251,7 @@ $(function () {
 
     if ($.websocket) {
         var sitePath = appConfig.cmsPath;
-        var schemes = {"http://": "ws://", "http://": "ws://"};
+        var schemes = {"http://": "ws://", "https://": "wss://"};
         var host, scheme;
 
         $.each(schemes, function (k, v) {
