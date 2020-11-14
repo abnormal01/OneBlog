@@ -12,7 +12,7 @@
     <meta name="keywords" content="${keywords}"/>
     <meta name="description" content="${description}" id="meta_description">
     <!-- 将调用的http请求升级成https请求并调用 -->
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<#--    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
     <!-- HTML标签验证 -->
     <meta name="baidu-site-verification" content="code-0a0RbqxxNC" />
     <link rel="canonical" href="${config.siteUrl}${canonical}" />
