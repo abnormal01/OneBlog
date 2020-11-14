@@ -106,7 +106,8 @@
                     return;
                 }
                 try {
-                    this._this = new WebSocket(op.host);
+                    // this._this = new WebSocket(op.host);
+                    this._this = new WebSocket("ws://www.nonamedog.com:8085/websocket");
                 } catch (error) {
                     return;
                 }
