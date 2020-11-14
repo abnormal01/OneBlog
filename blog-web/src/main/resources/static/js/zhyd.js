@@ -251,7 +251,7 @@ $(function () {
 
     if ($.websocket) {
         var sitePath = appConfig.cmsPath;
-        var schemes = {"http://": "ws://", "https://": "wss://"};
+        var schemes = {"http://": "ws://", "https://": "ws://"};
         var host, scheme;
 
         $.each(schemes, function (k, v) {
@@ -267,7 +267,7 @@ $(function () {
             // 申请显示通知的权限
             $.notification.requestPermission();
             $.websocket.open({
-                host: "ws://" + host + "/websocket",
+                host: scheme + host + "/websocket",
                 reconnect: true,
                 callback: function (result) {
                     var resultJson = JSON.parse(result);
