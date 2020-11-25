@@ -117,6 +117,7 @@
                     </ul>
                 </p>
                 <p>${config.copyright} &nbsp;|&nbsp; <a href="http://beian.miit.gov.cn/" target="_blank" title="查看备案信息" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">${config.recordNumber}</a></p>
+                <p><img src="/img/备案图标.png">32032402000387</p>
 <#--                <!-- <p><#if config.copyright!>${config.copyright} |</#if> Powered by <a href="https://gitee.com/yadong.zhang/DBlog" title="OneBlog是一款简洁美观、自适应的Java博客系统..." data-toggle="tooltip" data-placement="right" target="_blank"><i>OneBlog</i></a>  </p> &ndash;&gt;-->
 
                 <#if url?? && (url == "index")>
@@ -137,7 +138,7 @@
             </div>
             <div class="col col-md-4"></div>
         </div>
-    </div>
+    </div>/
 </footer>
 <a class="to-top" title="点击返回顶部" data-toggle="tooltip" data-placement="bottom"></a>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@1.11.1/dist/jquery.min.js"></script>
