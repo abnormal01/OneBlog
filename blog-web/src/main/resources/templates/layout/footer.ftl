@@ -138,7 +138,7 @@
             </div>
             <div class="col col-md-4"></div>
         </div>
-    </div>/
+    </div>
 </footer>
 <a class="to-top" title="点击返回顶部" data-toggle="tooltip" data-placement="bottom"></a>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@1.11.1/dist/jquery.min.js"></script>
