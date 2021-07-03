@@ -75,7 +75,7 @@ Table.prototype = {
                             }
                         },
                         error: function () {
-                            $.alert.error("网络超时！");
+                            // $.alert.error("网络超时！");
                         }
                     });
                 } else {
