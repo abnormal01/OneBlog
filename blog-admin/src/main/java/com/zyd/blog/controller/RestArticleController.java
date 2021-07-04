@@ -103,6 +103,7 @@ public class RestArticleController {
         }
         // urls: 推送, update: 更新, del: 删除
         String url = UrlBuildUtil.getBaiduPushUrl(type.toString(), (String) config.get(ConfigKeyEnum.SITE_URL.getKey()), (String) config.get(ConfigKeyEnum.BAIDU_PUSH_TOKEN.getKey()));
+        log.info("==>>待推送url", url);
         String result = BaiduPushUtil.doPush(url, params.toString(), (String) config.get(ConfigKeyEnum.BAIDU_PUSH_COOKIE.getKey()));
         log.info(result);
         JSONObject resultJson = JSONObject.parseObject(result);
