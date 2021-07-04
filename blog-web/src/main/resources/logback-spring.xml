@@ -59,9 +59,13 @@
     <springProfile name="test,dev">
         <logger name="com.zyd.blog" additivity="false">
             <appender-ref ref="STDOUT"/>
+            <appender-ref ref="FILE_ERROR" />
+            <appender-ref ref="FILE_INFO" />
         </logger>
         <root level="INFO">
             <appender-ref ref="STDOUT"/>
+            <appender-ref ref="FILE_ERROR" />
+            <appender-ref ref="FILE_INFO" />
         </root>
     </springProfile>
 
